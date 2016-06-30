@@ -24,14 +24,10 @@ public class MainActivity extends BaseActivity {
         menuList = new ArrayList<>();
         menuList.add("aaa");
         menuList.add("aaa");
-        menuList.add("aaa");menuList.add("aaa");
+        menuList.add("aaa");
+        menuList.add("aaa");
         menuList.add("aaa");
         lvMenu.setAdapter(new MenuAdapter());
-    }
-
-    @Override
-    protected void initView() {
-
     }
 
     class MenuAdapter extends BaseAdapter{
