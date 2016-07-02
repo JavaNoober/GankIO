@@ -20,16 +20,6 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        lvMenu = (ListView) findViewById(R.id.lv_menu);
-        menuList = new ArrayList<>();
-        menuList.add("aaa");
-        menuList.add("aaa");
-        menuList.add("aaa");
-        menuList.add("aaa");
-        menuList.add("aaa");
-        //222
-        menuList.add("aaa");
-        lvMenu.setAdapter(new MenuAdapter());
     }
 
     class MenuAdapter extends BaseAdapter{
