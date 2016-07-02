@@ -27,6 +27,8 @@ public class MainActivity extends BaseActivity {
         menuList.add("aaa");
         menuList.add("aaa");
         menuList.add("aaa");
+        //222
+        menuList.add("aaa");
         lvMenu.setAdapter(new MenuAdapter());
     }
 
